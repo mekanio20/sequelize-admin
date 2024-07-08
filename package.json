@@ -1,0 +1,30 @@
+{
+  "name": "sequelize-admin",
+  "version": "1.0.0",
+  "description": "This project creates a ready-made admin panel by performing CRUD operations on \"Sequelize\" models",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mekanio20/sequelize-admin.git"
+  },
+  "keywords": [
+    "ExpressJs",
+    "Sequelize",
+    "Dashboard"
+  ],
+  "author": "MVS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mekanio20/sequelize-admin/issues"
+  },
+  "homepage": "https://github.com/mekanio20/sequelize-admin#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
+  }
+}
